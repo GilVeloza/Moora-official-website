@@ -24,12 +24,25 @@ interface LanguageProviderProps {
 
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const [language, setLanguageState] = useState<Language>(() => {
+    // Check URL parameter first
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    if (langParam === 'en' || langParam === 'es' || langParam === 'pt') {
+      return langParam;
+    }
+    // Fall back to localStorage
     const saved = localStorage.getItem("moora-language");
-    return (saved as Language) || "es";
+    return (saved as Language) || "en";
   });
 
   useEffect(() => {
     localStorage.setItem("moora-language", language);
+    // Update URL parameter if on privacy-policy page
+    if (window.location.pathname.includes('/privacy-policy')) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', language);
+      window.history.replaceState({}, '', url.toString());
+    }
   }, [language]);
 
   const setLanguage = (lang: Language) => {
