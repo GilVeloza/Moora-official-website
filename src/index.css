@@ -1,0 +1,134 @@
+/* Moora Design System - Goal Tracking & Journaling App
+   Palette: Minimalista blanco/negro con acento púrpura #6659B3
+   All colors MUST be HSL.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 7%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
+
+    /* Moora Purple #6659B3 -> hsl(248, 36%, 53%) */
+    --primary: 248 36% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 7%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 248 36% 96%;
+    --accent-foreground: 248 36% 53%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 248 36% 53%;
+
+    --radius: 0.75rem;
+
+    /* Moora custom tokens */
+    --moora-purple: 248 36% 53%;
+    --moora-purple-light: 248 36% 96%;
+    --moora-purple-dark: 248 36% 43%;
+    --moora-success: 142 76% 36%;
+    --moora-surface: 0 0% 98%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 248 36% 63%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 248 36% 15%;
+    --accent-foreground: 248 36% 73%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 248 36% 63%;
+
+    --moora-purple: 248 36% 63%;
+    --moora-purple-light: 248 36% 20%;
+    --moora-purple-dark: 248 36% 53%;
+    --moora-success: 142 76% 46%;
+    --moora-surface: 0 0% 7%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes float-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes float-up {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float-down {
+  animation: float-down 3s ease-in-out infinite;
+}
+
+.animate-float-up {
+  animation: float-up 3s ease-in-out infinite;
+}
