@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import AppStoreBadge from "./AppStoreBadge";
+import PlayStoreBadge from "./PlayStoreBadge";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -54,8 +55,9 @@ const Header = () => {
           </div>
 
           {/* Right side - CTA */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center gap-2">
             <AppStoreBadge className="scale-90" />
+            <PlayStoreBadge className="scale-90" />
           </div>
 
           {/* Mobile Menu Button */}
@@ -85,8 +87,9 @@ const Header = () => {
               <div className="px-4 pt-2 border-t border-border">
                 <LanguageSelector />
               </div>
-              <div className="px-4 pt-2">
+              <div className="px-4 pt-2 flex flex-col gap-2">
                 <AppStoreBadge className="w-full justify-center" />
+                <PlayStoreBadge className="w-full justify-center" />
               </div>
             </div>
           </div>

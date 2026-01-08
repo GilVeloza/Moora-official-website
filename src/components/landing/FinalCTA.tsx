@@ -1,4 +1,5 @@
 import AppStoreBadge from "./AppStoreBadge";
+import PlayStoreBadge from "./PlayStoreBadge";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const FinalCTA = () => {
@@ -31,8 +32,9 @@ const FinalCTA = () => {
           </p>
 
           {/* CTA */}
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <AppStoreBadge className="scale-110" />
+            <PlayStoreBadge className="scale-110" />
           </div>
 
           {/* Trust */}

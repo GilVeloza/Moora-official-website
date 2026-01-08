@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import IPhoneMockup from "./IphoneMockup";
 import AppStoreBadge from "./AppStoreBadge";
+import PlayStoreBadge from "./PlayStoreBadge";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Hero = () => {
@@ -34,6 +35,7 @@ const Hero = () => {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start opacity-0 animate-fade-in [animation-delay:300ms]">
               <AppStoreBadge />
+              <PlayStoreBadge />
               <Button
                 variant="outline"
                 size="lg"
