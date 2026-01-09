@@ -69,6 +69,12 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
 
 const translations = {
   en: {
+    badges: {
+      appStoreDownload: "Download on the",
+      appStoreName: "App Store",
+      playStoreSoon: "Coming soon to",
+      playStoreName: "Play Store"
+    },
     nav: {
       benefits: "Benefits",
       howItWorks: "How it works",
@@ -158,8 +164,12 @@ const translations = {
       rights: "All rights reserved."
     }
   },
-  es: {
-    nav: {
+  es: {    badges: {
+      appStoreDownload: "Descargar en",
+      appStoreName: "App Store",
+      playStoreSoon: "Próximamente en",
+      playStoreName: "Play Store"
+    },    nav: {
       benefits: "Beneficios",
       howItWorks: "Cómo funciona",
       features: "Características",
@@ -249,6 +259,12 @@ const translations = {
     }
   },
   pt: {
+    badges: {
+      appStoreDownload: "Baixar na",
+      appStoreName: "App Store",
+      playStoreSoon: "Em breve na",
+      playStoreName: "Play Store"
+    },
     nav: {
       benefits: "Benefícios",
       howItWorks: "Como funciona",
