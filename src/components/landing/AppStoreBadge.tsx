@@ -9,7 +9,9 @@ const AppStoreBadge = ({ className = "" }: AppStoreBadgeProps) => {
   
   return (
     <a
-      href="#"
+      href="https://apps.apple.com/app/moora-journal-goal-tracker/id6757311668"
+      target="_blank"
+      rel="noopener noreferrer"
       className={`inline-flex items-center gap-3 bg-foreground text-background px-5 py-3 rounded-xl hover:opacity-90 transition-opacity ${className}`}
       aria-label={`${t("badges.appStoreDownload")} ${t("badges.appStoreName")}`}
     >
