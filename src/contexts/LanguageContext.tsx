@@ -151,7 +151,15 @@ const translations = {
     },
     audience: {
       title: "Who is Moora for?",
-      subtitle: "No matter your age or situation, Moora helps you keep focus and momentum on what truly matters to you."
+      subtitle: "No matter your age or situation, Moora helps you keep focus and momentum on what truly matters to you.",
+      students: "Students",
+      studentsDesc: "Organize your academic goals and study habits.",
+      professionals: "Professionals",
+      professionalsDesc: "Advance your career and personal development goals.",
+      entrepreneurs: "Entrepreneurs",
+      entrepreneursDesc: "Build your projects step by step with focus.",
+      anyone: "Anyone",
+      anyoneDesc: "With clear personal goals and the will to achieve them."
     },
     finalCta: {
       title: "Start your journey today",
@@ -245,7 +253,15 @@ const translations = {
     },
     audience: {
       title: "¿Para quién es Moora?",
-      subtitle: "Sin importar tu edad o situación, Moora te ayuda a mantener el enfoque y el impulso en lo que realmente te importa."
+      subtitle: "Sin importar tu edad o situación, Moora te ayuda a mantener el enfoque y el impulso en lo que realmente te importa.",
+      students: "Estudiantes",
+      studentsDesc: "Organiza tus metas académicas y hábitos de estudio.",
+      professionals: "Profesionales",
+      professionalsDesc: "Avanza en objetivos de carrera y desarrollo personal.",
+      entrepreneurs: "Emprendedores",
+      entrepreneursDesc: "Construye tus proyectos paso a paso con enfoque.",
+      anyone: "Cualquier persona",
+      anyoneDesc: "Con metas personales claras y ganas de lograrlas."
     },
     finalCta: {
       title: "Comienza tu journey hoy",
@@ -343,7 +359,15 @@ const translations = {
     },
     audience: {
       title: "Para quem é Moora?",
-      subtitle: "Não importa sua idade ou situação, Moora ajuda você a manter o foco e o impulso no que realmente importa para você."
+      subtitle: "Não importa sua idade ou situação, Moora ajuda você a manter o foco e o impulso no que realmente importa para você.",
+      students: "Estudantes",
+      studentsDesc: "Organize suas metas acadêmicas e hábitos de estudo.",
+      professionals: "Profissionais",
+      professionalsDesc: "Avance em objetivos de carreira e desenvolvimento pessoal.",
+      entrepreneurs: "Empreendedores",
+      entrepreneursDesc: "Construa seus projetos passo a passo com foco.",
+      anyone: "Qualquer pessoa",
+      anyoneDesc: "Com metas pessoais claras e vontade de alcançá-las."
     },
     finalCta: {
       title: "Comece sua jornada hoje",

@@ -1,31 +1,31 @@
 import { GraduationCap, Briefcase, Rocket, Heart } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-const audiences = [
-  {
-    icon: GraduationCap,
-    title: "Estudiantes",
-    description: "Organiza tus metas académicas y hábitos de estudio.",
-  },
-  {
-    icon: Briefcase,
-    title: "Profesionales",
-    description: "Avanza en objetivos de carrera y desarrollo personal.",
-  },
-  {
-    icon: Rocket,
-    title: "Emprendedores",
-    description: "Construye tus proyectos paso a paso con enfoque.",
-  },
-  {
-    icon: Heart,
-    title: "Cualquier persona",
-    description: "Con metas personales claras y ganas de lograrlas.",
-  },
-];
-
 const Audience = () => {
   const { t } = useLanguage();
+  
+  const audiences = [
+    {
+      icon: GraduationCap,
+      title: t('audience.students'),
+      description: t('audience.studentsDesc'),
+    },
+    {
+      icon: Briefcase,
+      title: t('audience.professionals'),
+      description: t('audience.professionalsDesc'),
+    },
+    {
+      icon: Rocket,
+      title: t('audience.entrepreneurs'),
+      description: t('audience.entrepreneursDesc'),
+    },
+    {
+      icon: Heart,
+      title: t('audience.anyone'),
+      description: t('audience.anyoneDesc'),
+    },
+  ];
   
   return (
     <section id="para-quien" className="py-20 md:py-32 bg-moora-surface">
