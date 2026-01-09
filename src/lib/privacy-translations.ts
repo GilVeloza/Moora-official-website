@@ -79,7 +79,7 @@ You have the right to:
 - **Data Portability:** Export your data in a structured format
 - **Withdraw Consent:** Stop using the app at any time
 
-To exercise these rights, contact us at: **hello@moorajournal.com**
+To exercise these rights, contact us at: **hello@getmoora.app**
 
 # 8. Data Retention
 
@@ -111,7 +111,7 @@ Continued use of the app after changes constitutes acceptance of the updated pol
 
 If you have questions, concerns, or requests regarding this privacy policy:
 
-**Email:** hello@moorajournal.com  
+**Email:** hello@getmoora.app  
 **App Name:** Moora  
 **Developer:** Gil Veloza
 
@@ -210,7 +210,7 @@ Tienes derecho a:
 - **Portabilidad de Datos:** Exportar tus datos en formato estructurado
 - **Retirar Consentimiento:** Dejar de usar la app en cualquier momento
 
-Para ejercer estos derechos, contáctanos en: **hello@moorajournal.com**
+Para ejercer estos derechos, contáctanos en: **hello@getmoora.app**
 
 # 8. Retención de Datos
 
@@ -242,7 +242,7 @@ El uso continuado de la app después de los cambios constituye la aceptación de
 
 Si tienes preguntas, inquietudes o solicitudes sobre esta política de privacidad:
 
-**Correo:** hello@moorajournal.com  
+**Correo:** hello@getmoora.app  
 **Nombre de la App:** Moora  
 **Desarrollador:** Gil Veloza
 
@@ -341,7 +341,7 @@ Você tem direito a:
 - **Portabilidade de Dados:** Exportar seus dados em formato estruturado
 - **Retirar Consentimento:** Parar de usar o app a qualquer momento
 
-Para exercer esses direitos, entre em contato conosco em: **hello@moorajournal.com**
+Para exercer esses direitos, entre em contato conosco em: **hello@getmoora.app**
 
 # 8. Retenção de Dados
 
@@ -373,7 +373,7 @@ O uso continuado do app após as mudanças constitui aceitação da política at
 
 Se você tiver perguntas, preocupações ou solicitações sobre esta política de privacidade:
 
-**E-mail:** hello@moorajournal.com  
+**E-mail:** hello@getmoora.app  
 **Nome do App:** Moora  
 **Desenvolvedor:** Gil Veloza
 

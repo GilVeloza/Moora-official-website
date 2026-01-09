@@ -26,7 +26,7 @@ const Footer = () => {
               {t('footer.privacyPolicy')}
             </a>
             <a
-              href="mailto:hello@moorajournal.com"
+              href="mailto:hello@getmoora.app"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               {t('footer.contact')}
