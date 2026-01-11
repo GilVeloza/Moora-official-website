@@ -169,6 +169,7 @@ const translations = {
     footer: {
       privacyPolicy: "Privacy Policy",
       contact: "Contact",
+      support: "Support",
       rights: "All rights reserved."
     },
     support: {
@@ -336,6 +337,7 @@ const translations = {
     footer: {
       privacyPolicy: "Política de Privacidad",
       contact: "Contacto",
+      support: "Soporte",
       rights: "Todos los derechos reservados."
     },
     support: {
@@ -507,6 +509,7 @@ const translations = {
     footer: {
       privacyPolicy: "Política de Privacidade",
       contact: "Contato",
+      support: "Suporte",
       rights: "Todos os direitos reservados."
     },
     support: {

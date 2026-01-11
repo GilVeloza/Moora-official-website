@@ -31,6 +31,12 @@ const Footer = () => {
             >
               {t('footer.contact')}
             </a>
+            <a
+              href="/support"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t('footer.support')}
+            </a>
           </div>
 
           {/* Copyright */}
