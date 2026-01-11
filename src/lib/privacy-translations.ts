@@ -13,7 +13,7 @@ Welcome to Moora ("we," "our," or "us"). We respect your privacy and are committ
 
 ## 2.1 Information You Provide Directly
 - **Account Information:** Email address, name, and password (encrypted)
-- **Profile Data:** Gender, personal goals, and preferences
+- **Profile Data:** Personal goals and preferences
 - **Journal Entries:** Text notes, photos, and audio recordings you create
 - **User Content:** Any other content you voluntarily provide within the app
 
@@ -144,7 +144,7 @@ Bienvenido a Moora ("nosotros" o "nuestro"). Respetamos tu privacidad y nos comp
 
 ## 2.1 Información que Proporcionas Directamente
 - **Información de Cuenta:** Correo electrónico, nombre y contraseña (encriptada)
-- **Datos de Perfil:** Género, metas personales y preferencias
+- **Datos de Perfil:** Metas personales y preferencias
 - **Entradas de Diario:** Notas de texto, fotos y grabaciones de audio que creas
 - **Contenido del Usuario:** Cualquier otro contenido que proporciones voluntariamente
 
@@ -275,7 +275,7 @@ Bem-vindo ao Moora ("nós" ou "nosso"). Respeitamos sua privacidade e estamos co
 
 ## 2.1 Informações que Você Fornece Diretamente
 - **Informações da Conta:** E-mail, nome e senha (criptografada)
-- **Dados do Perfil:** Gênero, metas pessoais e preferências
+- **Dados do Perfil:** Metas pessoais e preferências
 - **Entradas do Diário:** Notas de texto, fotos e gravações de áudio que você cria
 - **Conteúdo do Usuário:** Qualquer outro conteúdo que você forneça voluntariamente
 

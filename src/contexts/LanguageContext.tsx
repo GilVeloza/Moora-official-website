@@ -170,6 +170,71 @@ const translations = {
       privacyPolicy: "Privacy Policy",
       contact: "Contact",
       rights: "All rights reserved."
+    },
+    support: {
+      title: "Support",
+      subtitle: "We're here to help. Find answers to common questions or contact us directly.",
+      contact: {
+        email: {
+          title: "Email Support",
+          description: "Send us an email and we'll get back to you within 24 hours.",
+        },
+        issue: {
+          title: "Report an Issue",
+          description: "Found a bug or problem with the app? Let us know.",
+          action: "Report Issue"
+        }
+      },
+      faq: {
+        badge: "FAQ",
+        title: "Frequently Asked Questions",
+        subtitle: "Quick answers to common questions"
+      },
+      faq1: {
+        question: "How do I create my first goal?",
+        answer: "Open the app and tap the '+' button in the Goals section. You can set short-term (days/weeks), medium-term (months), or long-term (year+) goals. Add a title, description, and optionally set milestones to track your progress."
+      },
+      faq2: {
+        question: "Is my data private and secure?",
+        answer: "Yes, absolutely. All your data is protected with end-to-end encryption. We use industry-standard security practices and never share your personal information with third parties. You can export or delete your data at any time."
+      },
+      faq3: {
+        question: "How does the AI analysis work?",
+        answer: "Moora analyzes patterns in your journal entries to provide personalized insights about your progress, mood trends, and areas for improvement. The AI helps identify what's working well and where you might need to adjust your approach. OpenAI does not use your data to train their models."
+      },
+      faq4: {
+        question: "Can I use voice recording for journaling?",
+        answer: "Yes! Moora supports voice recordings that are automatically transcribed into text. This makes it easy to journal on the go or when you prefer speaking over typing."
+      },
+      faq5: {
+        question: "How do I sync my data across devices?",
+        answer: "Your data automatically syncs to iCloud when you're signed in with your Apple ID. This ensures your journal and goals are accessible from any iOS device you own."
+      },
+      faq6: {
+        question: "Can I export my journal entries?",
+        answer: "Yes, you can export all your data at any time from the Settings menu. We believe your data belongs to you and should always be accessible."
+      },
+      requirements: {
+        title: "System Requirements",
+        ios: {
+          title: "iOS",
+          version: "iOS 15.0 or later",
+          devices: "Compatible with iPhone"
+        },
+        android: {
+          title: "Android",
+          version: "Android 8.0 or later",
+          status: "Coming soon"
+        }
+      },
+      resources: {
+        title: "Additional Resources",
+        privacy: "Privacy Policy",
+        home: "Back to Home"
+      },
+      footer: {
+        rights: "All rights reserved."
+      }
     }
   },
   es: {    badges: {
@@ -272,6 +337,71 @@ const translations = {
       privacyPolicy: "Política de Privacidad",
       contact: "Contacto",
       rights: "Todos los derechos reservados."
+    },
+    support: {
+      title: "Soporte",
+      subtitle: "Estamos aquí para ayudarte. Encuentra respuestas a preguntas comunes o contáctanos directamente.",
+      contact: {
+        email: {
+          title: "Soporte por Email",
+          description: "Envíanos un correo y te responderemos en 24 horas.",
+        },
+        issue: {
+          title: "Reportar un Problema",
+          description: "¿Encontraste un error o problema en la app? Cuéntanos.",
+          action: "Reportar Problema"
+        }
+      },
+      faq: {
+        badge: "Preguntas Frecuentes",
+        title: "Preguntas Frecuentes",
+        subtitle: "Respuestas rápidas a dudas comunes"
+      },
+      faq1: {
+        question: "¿Cómo creo mi primera meta?",
+        answer: "Abre la app y toca el botón '+' en la sección de Metas. Puedes establecer metas a corto plazo (días/semanas), mediano plazo (meses), o largo plazo (año+). Añade un título, descripción y opcionalmente establece hitos para seguir tu progreso."
+      },
+      faq2: {
+        question: "¿Mis datos son privados y seguros?",
+        answer: "Sí, absolutamente. Todos tus datos están protegidos con encriptación de extremo a extremo. Usamos prácticas de seguridad estándar de la industria y nunca compartimos tu información personal con terceros. Puedes exportar o eliminar tus datos en cualquier momento."
+      },
+      faq3: {
+        question: "¿Cómo funciona el análisis con IA?",
+        answer: "Moora analiza patrones en tus entradas de diario para proporcionar insights personalizados sobre tu progreso, tendencias de ánimo y áreas de mejora. La IA ayuda a identificar qué está funcionando bien y dónde podrías necesitar ajustar tu enfoque. OpenAI no usa tus datos para entrenar sus modelos."
+      },
+      faq4: {
+        question: "¿Puedo usar grabación de voz para journaling?",
+        answer: "¡Sí! Moora soporta grabaciones de voz que se transcriben automáticamente a texto. Esto hace que sea fácil escribir tu diario en movimiento o cuando prefieres hablar en lugar de escribir."
+      },
+      faq5: {
+        question: "¿Cómo sincronizo mis datos entre dispositivos?",
+        answer: "Tus datos se sincronizan automáticamente con iCloud cuando estás conectado con tu Apple ID. Esto asegura que tu diario y metas sean accesibles desde cualquier dispositivo iOS que poseas."
+      },
+      faq6: {
+        question: "¿Puedo exportar mis entradas del diario?",
+        answer: "Sí, puedes exportar todos tus datos en cualquier momento desde el menú de Ajustes. Creemos que tus datos te pertenecen y deben ser siempre accesibles."
+      },
+      requirements: {
+        title: "Requisitos del Sistema",
+        ios: {
+          title: "iOS",
+          version: "iOS 15.0 o posterior",
+          devices: "Compatible con iPhone"
+        },
+        android: {
+          title: "Android",
+          version: "Android 8.0 o posterior",
+          status: "Próximamente"
+        }
+      },
+      resources: {
+        title: "Recursos Adicionales",
+        privacy: "Política de Privacidad",
+        home: "Volver al Inicio"
+      },
+      footer: {
+        rights: "Todos los derechos reservados."
+      }
     }
   },
   pt: {
@@ -378,6 +508,71 @@ const translations = {
       privacyPolicy: "Política de Privacidade",
       contact: "Contato",
       rights: "Todos os direitos reservados."
+    },
+    support: {
+      title: "Suporte",
+      subtitle: "Estamos aqui para ajudar. Encontre respostas para perguntas comuns ou entre em contato diretamente.",
+      contact: {
+        email: {
+          title: "Suporte por Email",
+          description: "Envie-nos um email e responderemos em 24 horas.",
+        },
+        issue: {
+          title: "Reportar um Problema",
+          description: "Encontrou um erro ou problema no app? Nos avise.",
+          action: "Reportar Problema"
+        }
+      },
+      faq: {
+        badge: "Perguntas Frequentes",
+        title: "Perguntas Frequentes",
+        subtitle: "Respostas rápidas para dúvidas comuns"
+      },
+      faq1: {
+        question: "Como criar minha primeira meta?",
+        answer: "Abra o app e toque no botão '+' na seção de Metas. Você pode definir metas de curto prazo (dias/semanas), médio prazo (meses) ou longo prazo (ano+). Adicione um título, descrição e opcionalmente defina marcos para acompanhar seu progresso."
+      },
+      faq2: {
+        question: "Meus dados são privados e seguros?",
+        answer: "Sim, absolutamente. Todos os seus dados são protegidos com criptografia de ponta a ponta. Usamos práticas de segurança padrão da indústria e nunca compartilhamos suas informações pessoais com terceiros. Você pode exportar ou excluir seus dados a qualquer momento."
+      },
+      faq3: {
+        question: "Como funciona a análise com IA?",
+        answer: "Moora analisa padrões em suas entradas de diário para fornecer insights personalizados sobre seu progresso, tendências de humor e áreas de melhoria. A IA ajuda a identificar o que está funcionando bem e onde você pode precisar ajustar sua abordagem. OpenAI não usa seus dados para treinar seus modelos."
+      },
+      faq4: {
+        question: "Posso usar gravação de voz para journaling?",
+        answer: "Sim! Moora suporta gravações de voz que são automaticamente transcritas para texto. Isso facilita escrever seu diário em movimento ou quando você prefere falar em vez de digitar."
+      },
+      faq5: {
+        question: "Como sincronizar meus dados entre dispositivos?",
+        answer: "Seus dados sincronizam automaticamente com o iCloud quando você está conectado com seu Apple ID. Isso garante que seu diário e metas sejam acessíveis de qualquer dispositivo iOS que você possua."
+      },
+      faq6: {
+        question: "Posso exportar minhas entradas do diário?",
+        answer: "Sim, você pode exportar todos os seus dados a qualquer momento no menu de Configurações. Acreditamos que seus dados pertencem a você e devem estar sempre acessíveis."
+      },
+      requirements: {
+        title: "Requisitos do Sistema",
+        ios: {
+          title: "iOS",
+          version: "iOS 15.0 ou posterior",
+          devices: "Compatível com iPhone"
+        },
+        android: {
+          title: "Android",
+          version: "Android 8.0 ou posterior",
+          status: "Em breve"
+        }
+      },
+      resources: {
+        title: "Recursos Adicionais",
+        privacy: "Política de Privacidade",
+        home: "Voltar ao Início"
+      },
+      footer: {
+        rights: "Todos os direitos reservados."
+      }
     }
   }
 };
