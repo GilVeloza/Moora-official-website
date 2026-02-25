@@ -32,3 +32,5 @@ Este proyecto está construido con:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+Actualización
